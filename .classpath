@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Test_classes"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/s.w/json-20140107.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nmakkar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nmakkar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nmakkar/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nmakkar/.m2/repository/org/testng/testng/6.10/testng-6.10.jar"/>
+	<classpathentry kind="lib" path="D:/s.w/selenium-java-3.5.3/selenium-server-standalone-3.5.3.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

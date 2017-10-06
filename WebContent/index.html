@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Method for Sending Form Data -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src=send.js>
+	
+</script>
+<script src="GA.js" />
+</script>
+
+</head>
+<body>
+	<form name="main_form" id="main_form" method="post">
+	You want to : <select id="type_e" name="type_e" title="type_e" onchange='generate_text_box(this.value)' >
+			<option value="--Select--">--Select--</option>
+			<option value="Execute">Execute</option>
+			<option value="Code">Code</option>
+			<option value="Both">Both</option>
+		</select> 
+				
+<br> <br> 
+				<div id="div_ch1"></div>
+<br> 
+	
+		Select Browser : <select id="browser" name="browser" title="browser">
+			<option value="--Select--">--Select--</option>
+			<option value="firefox">firefox</option>
+			<option value="Chrome">Chrome</option>
+			<option value="IE">Internet Explorer</option>
+		</select> <br> <br> Enter Your URL : <input id="URL" name="URL"
+			type="text" value="" /> <br> <br> Number of Action to
+		perform : <select id="count_actions" name="count_actions"
+			title="count_actions" onchange='generate_actions()'>
+			<option value="--Select--">--Select--</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">8</option>
+			<option value="10">10</option>
+		</select> <br> <br>
+		<div id="div_ch"></div>
+		<br> <br> Do you want to close browser? : <select
+			id="close_browser" name="close_browser" title="close_browser">
+			<option value="--Select--">--Select--</option>
+			<option value="YES">YES</option>
+			<option value="NO">NO</option>
+		</select> <br> <br> Do you want to kill drivers? : <select
+			id="kill_drivers" name="kill_drivers" title="kill_drivers">
+			<option value="--Select--">--Select--</option>
+			<option value="YES">YES</option>
+			<option value="NO">NO</option>
+		</select> <br> <br> <input type="button" value="Submit"	onClick="send_data()" />
+	</form>
+</body>
+</html>
